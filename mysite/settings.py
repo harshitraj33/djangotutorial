@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+TAILWIND_APP_NAME = "theme"
 
 # Application definition
 
@@ -38,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'polls',
+    'theme',
+    'tailwind',
 ]
 
 MIDDLEWARE = [
@@ -120,3 +123,4 @@ import os
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
+NPM_BIN_PATH = r"C:/Program Files/nodejs/npm.cmd"
